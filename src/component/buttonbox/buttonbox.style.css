@@ -1,0 +1,17 @@
+.buttonBox {
+    width: 100%;
+    height: calc(100% - 110px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+  }
+
+  .equals {
+    grid-column: 3 / 5;
+    background-color: rgb(243, 61, 29);
+  }
+  
+  .equals:hover {
+    background-color: rgb(228, 39, 15);
+  }
