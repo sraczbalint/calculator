@@ -132,18 +132,18 @@ const App = () => {
               value={btn}
               onClick={ 
                 btn === "C"
-                ? resetClickHandler
-                : btn === "+-"
-                ? invertClickHandler
-                : btn === "%"
-                ? percentClickHandler
-                ? btn === "="
-                : equalsClickHandler
-                : btn === "/" || btn === "X" || btn === "-" || btn === "+"
-                ? signClickHandler
-                : btn === "."
-                ? commaClickHandler
-                : numClickHandler
+                  ? resetClickHandler
+                  : btn === "+-"
+                  ? invertClickHandler
+                  : btn === "%"
+                  ? percentClickHandler
+                  : btn === "="
+                  ? equalsClickHandler
+                  : btn === "/" || btn === "X" || btn === "-" || btn === "+"
+                  ? signClickHandler
+                  : btn === "."
+                  ? commaClickHandler
+                  : numClickHandler
               }
             />
           );
